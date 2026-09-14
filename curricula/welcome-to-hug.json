@@ -51,7 +51,7 @@
       "prompt": "How does HUG gather people?",
       "options": [
         { "text": "Reclaiming intergenerational gathering spaces", "correct": true },
-        { "text": "Online only.", "explanation": "While HUG does engage with the broader community online, it is not the only way we do so." },
+        { "text": "Online only", "explanation": "While HUG does engage with the broader community online, it is not the only way we do so." },
         { "text": "Running members-only clubs", "explanation": "HUG welcomes community into discussion." }
       ],
       "explanation": "HUG intentionally reclaims intergenerational gathering spaces and traditional wellness practices anchored in agriculture, natural medicine, cultural celebration, intersectionality, and artistic expression."
