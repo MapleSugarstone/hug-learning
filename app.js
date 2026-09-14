@@ -799,7 +799,7 @@
 
       var promptInput = h('textarea', { rows: 2, value: q.prompt, placeholder: 'Write the question here.',
         oninput: function (e) { q.prompt = e.target.value; saveDraft(); } });
-      var explanationInput = h('textarea', { rows: 2, value: q.explanation, placeholder: 'Shown with the correct answer, especially after a wrong attempt.',
+      var explanationInput = h('textarea', { rows: 2, value: q.explanation, placeholder: 'Shown with the correct answer.',
         oninput: function (e) { q.explanation = e.target.value; saveDraft(); } });
 
       var optionsEl = h('div');
