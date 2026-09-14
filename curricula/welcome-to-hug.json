@@ -27,7 +27,7 @@
     },
     {
       "type": "single",
-      "prompt": "Which of these is one of the roots HUG describes its work growing from?",
+      "prompt": "Which of these is one of the roots of HUG's work?",
       "options": [
         { "text": "Food sovereignty", "correct": true },
         { "text": "Food catering" },
@@ -38,7 +38,7 @@
     },
     {
       "type": "multiple",
-      "prompt": "Which traditions does HUG say its communal efforts honor? Select all that apply.",
+      "prompt": "Which traditions do HUG's communal efforts honor? Select all that apply.",
       "options": [
         { "text": "African traditions", "correct": true },
         { "text": "Indigenous traditions", "correct": true },
@@ -48,10 +48,10 @@
     },
     {
       "type": "single",
-      "prompt": "How does HUG describe the way it gathers people?",
+      "prompt": "How does HUG gather people?",
       "options": [
         { "text": "Reclaiming intergenerational gathering spaces", "correct": true },
-        { "text": "Hosting online-only meetings" },
+        { "text": "Online only.", "explanation": "While HUG does engage with the broader community online, it is not the only way we do so." },
         { "text": "Running members-only clubs", "explanation": "HUG welcomes community into discussion." }
       ],
       "explanation": "HUG intentionally reclaims intergenerational gathering spaces and traditional wellness practices anchored in agriculture, natural medicine, cultural celebration, intersectionality, and artistic expression."
