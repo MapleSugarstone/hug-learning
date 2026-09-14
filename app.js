@@ -126,8 +126,8 @@
     });
   }
 
-  /* Lists the curricula on this site and resolves with the one picked, or null. */
-  function pickFromSite() {
+  /* Offers the curricula on this site plus a file picker. Resolves with the pick, or null. */
+  function pickCurriculumDialog(onChooseFile) {
     return new Promise(function (resolve) {
       openModal(function (modal) {
         function finish(result) { modal.close(); resolve(result); }
@@ -137,12 +137,15 @@
           actionLabel: 'Edit',
           allowInvalid: true,
           showFile: true,
-          fileHint: 'Use Open from file instead.',
+          fileHint: 'Choose a file from your computer instead.',
           onPick: finish
         });
         return [
-          h('h2', { text: 'Open a curriculum from this site' }),
+          h('h2', { text: 'Open a curriculum' }),
+          h('h3', { class: 'modal-sub', text: 'On this site' }),
           listEl,
+          h('h3', { class: 'modal-sub', text: 'From your computer' }),
+          h('button', { type: 'button', class: 'btn btn-secondary', onclick: function () { finish(null); onChooseFile(); } }, 'Choose a file'),
           h('div', { class: 'btn-row' },
             h('button', { type: 'button', class: 'btn btn-secondary', onclick: function () { finish(null); } }, 'Cancel')
           )
@@ -661,7 +664,6 @@
     if (!draft) { draft = loadDraft() || newCurriculum(); }
 
     var errorsEl = h('ul', { class: 'errors', hidden: true });
-    var statusEl = h('span', { class: 'status', role: 'status' });
     var questionsEl = h('div');
     var toolbarErrors = h('ul', { class: 'errors', hidden: true });
 
@@ -701,8 +703,8 @@
       }
     });
 
-    function openFromSite() {
-      pickFromSite().then(function (c) { if (c) { adoptCurriculum(c); } });
+    function openCurriculum() {
+      pickCurriculumDialog(function () { importInput.click(); }).then(function (c) { if (c) { adoptCurriculum(c); } });
     }
 
     function deleteDraft() {
@@ -725,11 +727,6 @@
       return errors.length ? null : exportCurriculum(draft);
     }
 
-    function setStatus(text) {
-      statusEl.textContent = text;
-      if (text) { setTimeout(function () { if (statusEl.textContent === text) { statusEl.textContent = ''; } }, 4000); }
-    }
-
     function downloadJSON() {
       var c = checkedDraft();
       if (!c) { return; }
@@ -742,7 +739,6 @@
       a.click();
       a.remove();
       setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
-      setStatus('Saved as ' + name);
       savedDialog(name);
     }
 
@@ -895,13 +891,11 @@
       h('p', { class: 'hint', text: 'Your work is kept in this browser as you type. When you are done, save the file, then send it to Maple to add to the site or open it from the load screen when you run the curriculum.' }),
       h('div', { class: 'toolbar' },
         toolbarErrors,
-        h('div', { class: 'btn-row' },
+        h('div', { class: 'toolbar-row' },
           h('button', { type: 'button', class: 'btn', onclick: downloadJSON }, 'Save'),
           h('button', { type: 'button', class: 'btn btn-secondary', onclick: preview }, 'Try it out'),
-          h('button', { type: 'button', class: 'btn btn-secondary', onclick: openFromSite }, 'Open from site'),
-          h('button', { type: 'button', class: 'btn btn-secondary', onclick: function () { importInput.click(); } }, 'Open from file'),
+          h('button', { type: 'button', class: 'btn btn-secondary', onclick: openCurriculum }, 'Open'),
           importInput,
-          statusEl,
           h('span', { class: 'spacer' }),
           h('button', { type: 'button', class: 'btn btn-danger btn-icon', 'aria-label': 'Delete draft', title: 'Delete draft', onclick: deleteDraft }, svg(ICON_TRASH))
         )
