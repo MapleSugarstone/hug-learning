@@ -1,0 +1,60 @@
+{
+  "title": "Welcome to HUG",
+  "description": "A short lesson about who Hilltop Urban Gardens is and what guides the work.",
+  "questions": [
+    {
+      "type": "single",
+      "prompt": "Where is Hilltop Urban Gardens based?",
+      "options": [
+        { "text": "Seattle, WA", "explanation": "Seattle is close by, but HUG's home is the Hilltop neighborhood in Tacoma." },
+        { "text": "Tacoma, WA", "correct": true },
+        { "text": "Portland, OR" },
+        { "text": "Olympia, WA" }
+      ],
+      "explanation": "HUG is rooted in the Hilltop neighborhood of Tacoma, Washington."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which communities does HUG center in its work? Select all that apply.",
+      "options": [
+        { "text": "Youth", "correct": true },
+        { "text": "LGBTQ communities", "correct": true },
+        { "text": "BIPOC communities", "correct": true },
+        { "text": "Immigrant communities", "correct": true },
+        { "text": "Corporate sponsors", "explanation": "HUG is community led. Its work centers people rather than sponsors." }
+      ],
+      "explanation": "HUG builds collectively guided wellness systems that center Youth, LGBTQ, BIPOC, and Immigrant communities."
+    },
+    {
+      "type": "single",
+      "prompt": "Which of these is one of the roots HUG describes its work growing from?",
+      "options": [
+        { "text": "Food sovereignty", "correct": true },
+        { "text": "Food catering" },
+        { "text": "Imported produce", "explanation": "HUG grows food locally with the community." },
+        { "text": "Lawn maintenance" }
+      ],
+      "explanation": "HUG's work is rooted in food sovereignty, land justice, and cultural pride."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which traditions does HUG say its communal efforts honor? Select all that apply.",
+      "options": [
+        { "text": "African traditions", "correct": true },
+        { "text": "Indigenous traditions", "correct": true },
+        { "text": "Industrial farming traditions", "explanation": "HUG practices sustainable, community scale agriculture." }
+      ],
+      "explanation": "HUG's communal efforts honor African and Indigenous traditions."
+    },
+    {
+      "type": "single",
+      "prompt": "How does HUG describe the way it gathers people?",
+      "options": [
+        { "text": "Reclaiming intergenerational gathering spaces", "correct": true },
+        { "text": "Hosting online-only meetings" },
+        { "text": "Running members-only clubs", "explanation": "HUG welcomes community into discussion." }
+      ],
+      "explanation": "HUG intentionally reclaims intergenerational gathering spaces and traditional wellness practices anchored in agriculture, natural medicine, cultural celebration, intersectionality, and artistic expression."
+    }
+  ]
+}
