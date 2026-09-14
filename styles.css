@@ -74,6 +74,7 @@ a { color: var(--deep-green); }
   text-decoration: none;
   color: var(--ink);
 }
+.brand.is-locked { cursor: default; }
 .brand img {
   width: 56px;
   height: 56px;
@@ -403,9 +404,6 @@ input[type="file"] { font: inherit; }
 
 /* Editor */
 .toolbar {
-  position: sticky;
-  top: 8px;
-  z-index: 2;
   background: var(--white);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -515,7 +513,7 @@ body.embed main { padding-top: 20px; }
   .prompt { font-size: 1.2rem; }
   .two-col { grid-template-columns: 1fr; }
   .list-item { flex-direction: column; align-items: flex-start; }
-  .toolbar { top: 6px; padding: 8px 10px; }
+  .toolbar { padding: 8px 10px; }
   .toolbar-row { gap: 6px; }
   .toolbar-row .btn { padding: 9px 14px; font-size: 0.85rem; }
   .toolbar-row .btn-icon { padding: 9px; }

@@ -7,6 +7,7 @@
 
   var app = document.getElementById('app');
   var homeBtn = document.getElementById('home-btn');
+  var brandLink = document.querySelector('.brand');
   var params = new URLSearchParams(window.location.search);
 
   if (params.get('embed') === '1') {
@@ -71,6 +72,14 @@
     app.innerHTML = '';
     append(app, node);
     homeBtn.hidden = !(opts && opts.home);
+    /* While a learner is inside a curriculum, the logo stops being a link so there is no way back to the start. */
+    if (opts && opts.lock) {
+      brandLink.removeAttribute('href');
+      brandLink.classList.add('is-locked');
+    } else {
+      brandLink.setAttribute('href', './');
+      brandLink.classList.remove('is-locked');
+    }
     if (!(opts && opts.keepScroll)) { window.scrollTo(0, 0); }
   }
 
@@ -454,7 +463,7 @@
         h('button', { type: 'button', class: 'btn', onclick: function () { startSession(curriculum, opts); } }, 'Start'),
         opts.preview ? h('button', { type: 'button', class: 'btn btn-ghost', onclick: function () { showEditor({ keepScroll: false }); } }, 'Back to editor') : null
       )
-    )), { home: !opts.preview });
+    )), { lock: !opts.preview });
   }
 
   function startSession(curriculum, opts) {
@@ -525,7 +534,7 @@
         h('p', { class: 'hint prompt-hint', text: multi ? 'Select all that apply.' : 'Select one answer.' }),
         form
       )
-    ), { home: !s.preview });
+    ), { lock: !s.preview });
 
     function selectedIndices() {
       return inputs.map(function (inp, i) { return inp.checked ? i : -1; }).filter(function (i) { return i >= 0; });
@@ -616,7 +625,7 @@
         s.pos = 0;
         showQuestion();
       } }, 'Continue')
-    )), { home: !s.preview });
+    )), { lock: !s.preview });
   }
 
   function showDone() {
@@ -626,7 +635,7 @@
       h('h1', { text: 'You have completed the learning tool.' }),
       h('p', { class: 'wait', text: 'Please wait.' }),
       s.preview ? h('p', null, h('button', { type: 'button', class: 'btn btn-secondary', onclick: function () { showEditor(); } }, 'Back to editor')) : null
-    )));
+    )), { lock: !s.preview });
   }
 
   /* ------------------------------------------------------------------ */
