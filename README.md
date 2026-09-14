@@ -1,6 +1,6 @@
 # HUG Learning
 
-A small learning tool for Hilltop Urban Gardens. A learner works through a set of questions. A wrong answer shows the correct answer with an explanation, and the question comes back around after the rest. This repeats until every question has been answered correctly. Anyone can also build a new set of questions in the browser and save it as a file.
+A learning tool for Hilltop Urban Gardens. A learner works through a set of questions. A wrong answer shows the correct answer with an explanation, and the question comes back around after the rest. This repeats until every question has been answered correctly. Anyone can also build a new set of questions in the browser and save it as a file.
 
 The tool is plain HTML, CSS, and JavaScript. There is no build step and no server code, so it runs on GitHub Pages or any static host.
 
@@ -13,7 +13,7 @@ The tool is plain HTML, CSS, and JavaScript. There is no build step and no serve
 | `app.js` | All behavior: loading, the learner flow, and the editor. |
 | `curricula/` | Curriculum files. Each `.json` file here is one curriculum. |
 | `curricula/index.json` | The list of curriculum files the page offers. See below. |
-| `assets/` | The HUG logo. |
+| `assets/` | The HUG logo and `preview.png`, the image shown when the site's link is pasted into a chat or social post. |
 | `.github/workflows/pages.yml` | Optional. Publishes the site and rebuilds `curricula/index.json` on every push. |
 
 ## Using the tool
@@ -54,6 +54,8 @@ Create a repository and push these files to the `main` branch. Then choose one o
 **Option B, no workflow.** Set **Source** to **Deploy from a branch**, pick `main` and the root folder. GitHub publishes the files as they are. Keep `curricula/index.json` up to date yourself whenever you add or remove a curriculum. You can delete the `.github` folder if you go this way.
 
 Either way the site is available at `https://<your-account>.github.io/<repository>/`.
+
+The link preview image lives at `assets/preview.png`. Link previews need its full address, which is set in the `og:image` and `twitter:image` tags near the top of `index.html`. It currently points at `https://maplesugarstone.github.io/hug-learning/`. If the site moves to a different address or a custom domain, update those two tags to match.
 
 ## Linking straight to a curriculum
 
