@@ -149,7 +149,7 @@
           "text": "Monthly one-day workshops"
         }
       ],
-      "explanation": "There are four eight-week sessions in the school year. Each club meets two hours a day on either a Monday/Wednesday or Tuesday/Thursday schedule. There are no programs on Fridays."
+      "explanation": "There are four eight-week sessions in the school year. HUG runs program four days a week, Monday through Thursday, and each group meets two hours a day on two of those days. There are no programs on Fridays."
     },
     {
       "type": "single",
@@ -189,7 +189,7 @@
           "text": "At least 20"
         }
       ],
-      "explanation": "Each program offering needs a minimum of ten registered students. If an offering does not reach that number, the District may cancel it."
+      "explanation": "Each program offering needs a minimum of ten registered students, and the District may cancel an offering that falls short. That is the standard policy. This session HUG has been permitted to run smaller groups."
     },
     {
       "type": "single",
@@ -239,7 +239,7 @@
       "prompt": "What happens when a program day is cancelled because no instructor shows up?",
       "options": [
         {
-          "text": "The District deducts $100 from HUG's payment for that session",
+          "text": "The District deducts $100 of the $900 for that offering from HUG's payment for the session",
           "correct": true
         },
         {
@@ -252,7 +252,7 @@
           "text": "The students are moved to another provider for the day"
         }
       ],
-      "explanation": "The contract subtracts $100 for every cancelled day caused by a missing instructor, and repeated cancellations put the partnership at risk. Show up, and show up on time."
+      "explanation": "Each offering earns $900 a session, and the contract subtracts $100 of it for every cancelled day caused by a missing instructor. Repeated cancellations put the partnership at risk. Show up, and show up on time."
     },
     {
       "type": "single",
@@ -273,28 +273,50 @@
           "explanation": "A 253 worker can assist with programming, but cannot act as a substitute."
         }
       ],
-      "explanation": "Substitutes must be prescreened, trained, and pre-approved by the District before they set foot in the program. Plan substitutes ahead of time."
+      "explanation": "Substitutes must be prescreened, trained, and pre-approved by the District before they set foot in the program. If you cannot make your shift, message the Youth Programming channel at least three hours before program so leadership can arrange one."
     },
     {
       "type": "single",
-      "prompt": "You have to cancel a session. What do you do?",
+      "prompt": "You cannot make your shift. What do you do?",
       "options": [
         {
-          "text": "Call/Message HUG education leadership ahead of time so they can get a substitute",
+          "text": "Message the Youth Programming channel at least three hours before program so leadership can arrange a substitute",
           "correct": true
         },
         {
-          "text": "Post in the youth programming channel and nothing else",
-          "explanation": "Let your team know in the channel too, but the District has to hear it from you by email."
+          "text": "Ask a friend on staff to cover for you",
+          "explanation": "Substitutes have to be prescreened and District-approved, so leadership arranges them."
         },
         {
-          "text": "Tell the students at pickup"
+          "text": "Email the District to cancel the day",
+          "explanation": "Cancelling is the last resort, and it still costs HUG $100."
         },
         {
-          "text": "Text the school's front office the morning of"
+          "text": "Tell the site lead when you get a chance"
         }
       ],
-      "explanation": "Cancellations are emailed to Kim Messersmith the day before. Even so, there is a $100 deduction regardless. So cancelling should be only done as a last resort. Substitution should always be prioritized."
+      "explanation": "Absences go to the Youth Programming channel at least three hours ahead so a substitute can be found. Cancelling is only a last resort, because the District still deducts $100 for a day with no instructor."
+    },
+    {
+      "type": "single",
+      "prompt": "A program day has to be cancelled. Who needs to know, and by when?",
+      "options": [
+        {
+          "text": "Email beyondthebell@k12.wa.us and Kim Messersmith no later than 10 am on the day of program",
+          "correct": true
+        },
+        {
+          "text": "Post in the Youth Programming channel and nothing else",
+          "explanation": "Tell the team too, but the District has to hear it by email."
+        },
+        {
+          "text": "Tell the students at pickup the day before"
+        },
+        {
+          "text": "Text the school's front office when you would normally arrive"
+        }
+      ],
+      "explanation": "Cancellations are emailed to beyondthebell@k12.wa.us and to Kim Messersmith (KSMITH1@tacoma.k12.wa.us) no later than 10 am on the day of program. Even with notice, a cancelled day with no instructor costs HUG $100, so substitution comes first."
     },
     {
       "type": "single",
@@ -342,7 +364,7 @@
       "prompt": "A family asks for an accommodation for a student with a disability. What is the right response?",
       "options": [
         {
-          "text": "Take the request seriously. HUG works with the District to arrange reasonable accommodations under the ADA",
+          "text": "Take the request seriously. HUG works with the District to arrange reasonable accommodations under the ADA and Washington state policies",
           "correct": true
         },
         {
@@ -355,7 +377,7 @@
           "text": "Ignore it unless a doctor's note is provided"
         }
       ],
-      "explanation": "HUG follows the Americans with Disabilities Act. Accommodation requests are reviewed with the District case by case, and families can submit them before programming begins."
+      "explanation": "HUG follows the Americans with Disabilities Act and Washington state policies. Accommodation requests are reviewed with the District case by case, and families can submit them before programming begins."
     },
     {
       "type": "single",
@@ -431,15 +453,19 @@
           "correct": true
         },
         {
+          "text": "A pat on the arm",
+          "correct": true
+        },
+        {
           "text": "Holding a hand, for example while walking",
           "correct": true
         },
         {
-          "text": "A hug",
-          "explanation": "Keep touch to hands and shoulders."
+          "text": "A hug you start",
+          "explanation": "Hugging is discouraged and counts as boundary invasion unless the student initiates it. Remind students to ask before they start a hug."
         }
       ],
-      "explanation": "Keep touch to arm extremities: a pat on the hand or shoulder, or holding a hand. A pat on the shoulder is how you say \"good job.\""
+      "explanation": "Limit touch to the arm and hand: a pat on the shoulder, arm, or hand, or holding a hand. A \"good job\" touch is a pat on the shoulder, arm, or hand. Hugging is discouraged unless the student initiates it, and students are reminded to ask first too."
     },
     {
       "type": "single",
@@ -467,7 +493,7 @@
       "prompt": "How, and how soon, do you make a mandatory report to the state?",
       "options": [
         {
-          "text": "Call DCYF at 1-866-END-HARM (1-866-363-4276), or 911 if the child is in immediate danger, at the first opportunity and never later than 48 hours",
+          "text": "Call DCYF at 1-866-END-HARM (1-866-363-4276), or 911 if the child is in immediate danger, at the first opportunity and never later than 24 hours",
           "correct": true
         },
         {
@@ -481,14 +507,14 @@
           "text": "Bring it up at the next staff meeting"
         }
       ],
-      "explanation": "Washington's reporting line, 1-866-END-HARM, is staffed around the clock. State law requires the report at the first opportunity and in no case more than 48 hours after you have reasonable cause to believe abuse or neglect occurred. Along with the incident, you file a report with HUG, the School, and contact the HUG CEO and other Educational leadership in Cliq by tagging them in the Youth Education channel."
+      "explanation": "Washington's reporting line, 1-866-END-HARM, is staffed around the clock. HUG's rule is to report at the first opportunity and never later than 24 hours, tighter than the 48 hours state law allows. Alongside the state report, post in the Youth Programming channel tagging the CEO and Youth Programming Leadership, and report to the District through the site lead and by emailing Kim Messersmith."
     },
     {
       "type": "single",
       "prompt": "You suspect a student is being neglected but you have no direct evidence. What is the first step?",
       "options": [
         {
-          "text": "Post it in the youth programming channel and tag the HUG CEO and education leadership so they can discuss it and decide next steps",
+          "text": "Post it in the Youth Programming channel and tag the CEO so leadership can talk it through and set the next step",
           "correct": true
         },
         {
@@ -501,7 +527,7 @@
           "text": "Ask other students what they know"
         }
       ],
-      "explanation": "Suspected abuse or neglect without direct evidence goes in the youth programming channel, tagged to the CEO and leadership. The team discusses it, and the Land and Community Building Manager tells you what actions to take."
+      "explanation": "Suspicion without direct evidence goes in the Youth Programming channel, tagged to the CEO. The team talks it through and leadership sets the next step."
     },
     {
       "type": "multiple",
@@ -643,94 +669,100 @@
     },
     {
       "type": "single",
-      "prompt": "What time should you start prepping on a program day?",
+      "prompt": "When do students arrive at each school?",
       "options": [
         {
-          "text": "2:30 pm, so supplies are ready before you head to the school",
+          "text": "3:10 at Stanley and 3:30 at Travis",
           "correct": true
         },
         {
-          "text": "3:05 pm, when students start arriving"
+          "text": "3:30 at Stanley and 3:10 at Travis",
+          "explanation": "Those are the right times, but swapped."
         },
         {
-          "text": "Noon"
+          "text": "3:05 at both schools",
+          "explanation": "That was the old schedule."
         },
         {
-          "text": "4:00 pm, at the start of the lesson"
+          "text": "4:00 at both schools"
         }
       ],
-      "explanation": "Staff set-up starts at 2:30 pm at Agro Academy or the school garden: indoor tables, veggies, magnifiers, art supplies, water-pouring stations, chalk, and whatever the lesson needs. Prep is clocked in as part of your shift."
+      "explanation": "Students arrive at 3:10 at Stanley and 3:30 at Travis, and the program starts as soon as they do. Stanley runs 3:10 to 5:10 and Travis runs 3:30 to 5:30."
     },
     {
       "type": "single",
       "prompt": "When do you need to be at the school?",
       "options": [
         {
-          "text": "By 2:50 - 3:00 pm, before students start arriving at 3:05",
+          "text": "Ten minutes before program starts: 3:00 at Stanley, 3:20 at Travis",
           "correct": true
         },
         {
-          "text": "By 3:30 pm"
+          "text": "At 3:10 at Stanley or 3:30 at Travis, when the students walk in",
+          "explanation": "By then you should already be set up."
         },
         {
-          "text": "By 4:00 pm, when the lesson starts"
+          "text": "By 4:00 pm"
         },
         {
           "text": "Whenever the site lead messages you"
         }
       ],
-      "explanation": "Staff arrive at the school between 2:50 and 3:00 pm and meet at the check-in spot to go over attendance sheets, radios, and snacks. Students begin arriving at 3:05. Arriving late leaves the site lead without HUG staff when the kids show up."
+      "explanation": "Show up on time means being at the school ten minutes before program starts: 3:00 at Stanley and 3:20 at Travis. Prep happens at Agro Academy first and is clocked in, starting at 2:30 for Stanley and 3:00 for Travis. Arriving late leaves the site lead without HUG staff when the kids show up."
     },
     {
       "type": "single",
       "prompt": "When is the Beyond the Bell workday over, so you can leave the site?",
       "options": [
         {
-          "text": "6:00 pm, once pickup is finished and the space is reset",
+          "text": "When the two hours end, 5:10 at Stanley or 5:30 at Travis, and every student is picked up and the space is reset",
           "correct": true
         },
         {
-          "text": "5:00 pm, when the lesson ends"
+          "text": "6:00 pm at both schools",
+          "explanation": "That was the old schedule."
         },
         {
-          "text": "5:20 pm, as soon as the closing reflection ends"
+          "text": "As soon as the lesson wraps up, even if students are still waiting for pickup"
         },
         {
           "text": "Whenever your co-facilitator says it is fine"
         }
       ],
-      "explanation": "Pickup runs from 5:20 to 6:00 pm with decompression activities such as books, drawing, and garden helper jobs. Staff departure is at 6:00 pm, after the last student is picked up and the space is left in the same or better condition than you found it."
+      "explanation": "Program runs two hours: 3:10 to 5:10 at Stanley and 3:30 to 5:30 at Travis. You leave once the last student is picked up and the space is left in the same or better condition than you found it."
     },
     {
       "type": "single",
-      "prompt": "On a program day, what happens during the 4:00 to 5:00 pm block?",
+      "prompt": "What happens once students arrive?",
       "options": [
         {
-          "text": "The program lesson of the day",
+          "text": "Program starts right away and runs for two hours",
           "correct": true
         },
         {
-          "text": "Student check-in"
+          "text": "Snack, then free play, then the lesson",
+          "explanation": "There is no snack or free time in the schedule anymore."
         },
         {
-          "text": "Snack"
+          "text": "A bathroom break and a walk before anything starts"
         },
         {
-          "text": "Child pickup"
+          "text": "Homework help for the first hour"
         }
       ],
-      "explanation": "The afternoon runs: staff set-up, staff arrival at the school to check attendance sheets, radios, and snacks, student arrival and check-in, snack, bathroom break and the walk to the program space, the one-hour lesson at 4:00, Big Group, then pickup and staff departure."
+      "explanation": "There is no snack or free time. The lesson starts as soon as students arrive, 3:10 at Stanley and 3:30 at Travis, and runs two hours."
     },
     {
       "type": "single",
       "prompt": "What happens at the end of the lesson?",
       "options": [
         {
-          "text": "Reflection, then free play",
+          "text": "A reflection on the day, then pickup",
           "correct": true
         },
         {
-          "text": "Free play"
+          "text": "Free play until pickup",
+          "explanation": "Free time is no longer part of the schedule."
         },
         {
           "text": "Homework help"
@@ -739,7 +771,7 @@
           "text": "A staff meeting"
         }
       ],
-      "explanation": "Student reflect on the day's lesson and then are permitted to free play before pickup arrives."
+      "explanation": "Students reflect on the day's lesson, then are picked up when the two hours end."
     },
     {
       "type": "single",
@@ -786,7 +818,7 @@
       "prompt": "What belongs in the emergency Grab and Go kit? Select all that apply.",
       "options": [
         {
-          "text": "Attendance list and emergency contacts",
+          "text": "Attendance, kept in the Partner Portal, and emergency contacts",
           "correct": true
         },
         {
@@ -806,7 +838,7 @@
           "explanation": "Garden tools will clutter or make the emergency kit more cumbersome during an emergency."
         }
       ],
-      "explanation": "The Grab and Go kit holds the attendance list, emergency contacts, first aid kit, flashlight, whistle, snacks, and water."
+      "explanation": "The Grab and Go kit covers attendance from the Partner Portal, emergency contacts, first aid kit, flashlight, whistle, snacks, and water."
     },
     {
       "type": "single",
@@ -897,20 +929,20 @@
       "prompt": "A child is hurt and needs medical help. How do staff split up?",
       "options": [
         {
-          "text": "One stays with the child, one calls 911, and one manages the rest of the group",
+          "text": "One stays with the child while the other calls 911 and keeps the group together",
           "correct": true
         },
         {
           "text": "Everyone gathers around the child"
         },
         {
-          "text": "One staff member does everything while the others continue the lesson"
+          "text": "One staff member does everything while the other continues the lesson"
         },
         {
           "text": "Send a student to find help"
         }
       ],
-      "explanation": "One staff with the child, one calling 911, one with the group. Give first aid if trained, and contact the guardian immediately."
+      "explanation": "One staff with the child, one calling 911 and keeping the group together. Give first aid if trained, and contact the guardian immediately."
     },
     {
       "type": "multiple",
@@ -925,7 +957,7 @@
           "correct": true
         },
         {
-          "text": "Insects and bees",
+          "text": "Insects, bees, and wasps",
           "correct": true
         },
         {
@@ -937,12 +969,16 @@
           "explanation": "Tools stay secured, and K through 2 students do not use sharp tools at all."
         }
       ],
-      "explanation": "The emergency plan's agro-specific risks: secure tools, wear garden gloves when handling them, watch irrigation lines, be aware of insects and bees, and monitor uneven or muddy ground."
+      "explanation": "The emergency plan's agro-specific risks: secure tools, wear garden gloves when handling them, watch irrigation lines, be aware of insects, bees, and wasps, and monitor uneven or muddy ground. Everyone wears close-toed shoes."
     },
     {
       "type": "multiple",
       "prompt": "Older students are using garden tools. Which safety rules apply? Select all that apply.",
       "options": [
+        {
+          "text": "Everyone wears close-toed shoes",
+          "correct": true
+        },
         {
           "text": "Keep an arm's length plus the tool's length between students",
           "correct": true
@@ -964,7 +1000,7 @@
           "explanation": "Tools stay low, never over the shoulder, so nobody behind gets hit."
         }
       ],
-      "explanation": "Extension guidance for youth gardens: space students an arm's length plus a tool length apart, keep tools below the waist, no running with tools, name which tools are adult-only, and inspect tools before use. Gloves go on before anyone shovels."
+      "explanation": "Close-toed shoes are required in the garden. Space students an arm's length plus a tool length apart, keep tools below the waist, no running with tools, name which tools are adult-only, and inspect tools before use. Gloves go on before anyone shovels."
     },
     {
       "type": "multiple",
@@ -1037,23 +1073,23 @@
     },
     {
       "type": "single",
-      "prompt": "How is the one-hour lesson block structured for K through 2 students, and why?",
+      "prompt": "How should a lesson be structured for K through 2 students, and why?",
       "options": [
         {
-          "text": "A 35 to 40 minute lesson plus a 15 to 20 minute mini art or build project, because young students need short attention cycles",
+          "text": "Split it into a lesson block and a short art or build project, because young students need short attention cycles",
           "correct": true
         },
         {
-          "text": "One 60 minute lecture"
+          "text": "One long lecture"
         },
         {
-          "text": "Sixty minutes of free play"
+          "text": "Free play the whole time"
         },
         {
-          "text": "Three 20 minute lectures"
+          "text": "Three short lectures in a row"
         }
       ],
-      "explanation": "K through 2 attention spans are short, so the hour is split into a lesson and a mini project."
+      "explanation": "K through 2 attention spans are short, so break the time into a lesson and a mini project rather than one long stretch."
     },
     {
       "type": "single",
@@ -1136,7 +1172,7 @@
           "text": "Under the front legs with the back legs hanging"
         }
       ],
-      "explanation": "Rabbits have a fragile spine and strong hind legs. Support the chest and the hindquarters and keep the bunny close to your body so it feels secure."
+      "explanation": "Rabbits have a fragile spine and strong hind legs. Support the chest and the hindquarters and keep the bunny close to your body so it feels secure. Keep checking that the animal is comfortable, and wash up afterward."
     },
     {
       "type": "single",
