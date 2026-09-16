@@ -1,0 +1,1289 @@
+{
+  "title": "Beyond the Bell facilitator training",
+  "description": "For new Hilltop Urban Gardens facilitators running Agro Academy in Tacoma Public Schools' Beyond the Bell program. Covers how the program works, what is expected of you, boundaries, reporting, the daily flow, the emergency plan, lesson safety, and HUG's mission.\n\nYou are not expected to know the answer to each question, and you are not graded. Answer as best you can, and you will be given the opportunity to retry questions you missed.",
+  "questions": [
+    {
+      "type": "single",
+      "prompt": "What is Beyond the Bell?",
+      "options": [
+        {
+          "text": "Tacoma's after-school program for elementary students, run with community organizations that offer enrichment after the school day",
+          "correct": true
+        },
+        {
+          "text": "A HUG summer camp held at the farm",
+          "explanation": "Beyond the Bell runs during the school year at District schools."
+        },
+        {
+          "text": "A Metro Parks Tacoma sports league"
+        },
+        {
+          "text": "A statewide tutoring grant"
+        }
+      ],
+      "explanation": "Beyond the Bell serves students in grades K through 5 at Tacoma elementary schools. Club B is the version for grades 6 through 8. Community partners like HUG provide the programming."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which organizations come together to run Beyond the Bell? Select all that apply.",
+      "options": [
+        {
+          "text": "Tacoma Public Schools",
+          "correct": true
+        },
+        {
+          "text": "Parks Tacoma (Metro Parks Tacoma)",
+          "explanation": "Parks Tacoma no longer runs Beyond the Bell"
+        },
+        {
+          "text": "Greentrike",
+          "explanation": "Greentrike no longer runs Beyond the Bell"
+        },
+        {
+          "text": "Community partners such as HUG",
+          "correct": true
+        },
+        {
+          "text": "The Pierce County Sheriff's Office"
+        }
+      ],
+      "explanation": "Beyond the Bell and Club B is run by Tacoma Public Schools and community partners. The site lead you meet at the schools are Parks TPU staff, and HUG is one of the community partners."
+    },
+    {
+      "type": "single",
+      "prompt": "What is the stated overall goal of Beyond the Bell?",
+      "options": [
+        {
+          "text": "Equitable access to culturally responsive, play-based, enriching expanded learning opportunities for all children, youth, and families in Pierce County",
+          "correct": true
+        },
+        {
+          "text": "Raising standardized test scores"
+        },
+        {
+          "text": "Free childcare until 6 pm"
+        },
+        {
+          "text": "Recruiting students for school sports teams"
+        }
+      ],
+      "explanation": "The program's goal is that all children, youth, and families in Pierce County have equitable access to culturally responsive, play-based, and enriching expanded learning opportunities. Agro Academy fits that goal by being hands-on, outdoors, and rooted in the community."
+    },
+    {
+      "type": "single",
+      "prompt": "In Beyond the Bell paperwork, HUG is an \"ELO provider.\" What does ELO stand for?",
+      "options": [
+        {
+          "text": "Expanded Learning Opportunity",
+          "correct": true
+        },
+        {
+          "text": "Early Learning Outreach"
+        },
+        {
+          "text": "Elementary Lesson Outline"
+        },
+        {
+          "text": "Enrichment League Organization"
+        }
+      ],
+      "explanation": "ELO stands for Expanded Learning Opportunity. HUG is contracted to provide ELO programming for District students through One City After School Service Center programming, and the District also uses \"the ELO\" to mean the partner organization itself."
+    },
+    {
+      "type": "single",
+      "prompt": "What is HUG's Beyond the Bell program called, and where does it run?",
+      "options": [
+        {
+          "text": "Agro Academy, at Stanley Elementary and Travis Elementary",
+          "correct": true
+        },
+        {
+          "text": "Farm Club, at Lincoln High School"
+        },
+        {
+          "text": "Seed Squad, at Bryant Montessori"
+        },
+        {
+          "text": "Garden Time, at Jason Lee Middle School"
+        }
+      ],
+      "explanation": "HUG's offering is Agro Academy. It serves Stanley Elementary (grades K through 2) and Travis Elementary (3 through 5). Agro Academy has an off-school site hosted at 1220 S 23rd St, Tacoma, WA 98405."
+    },
+    {
+      "type": "single",
+      "prompt": "Where are the two Agro Academy schools?",
+      "options": [
+        {
+          "text": "Stanley Elementary at 1712 S 17th St and Edna Travis Elementary at 2111 S J St",
+          "correct": true
+        },
+        {
+          "text": "Stanley Elementary at the Storefront, and Edna Travis Elementary at the University of Washington"
+        },
+        {
+          "text": "Both at 1302 S 23rd St, next to Agro Academy",
+          "explanation": "1302 S 23rd St is HUG's own address, not a school."
+        },
+        {
+          "text": "Stanley at 601 S 8th St and Travis at 302 S 9th St",
+          "explanation": "Those are Tacoma Public Schools offices. 601 S 8th St is the District's central office and 302 S 9th St is the One City Center."
+        }
+      ],
+      "explanation": "Stanley Elementary is at 1712 S 17th St, Tacoma, WA 98405. Edna Travis Elementary is at 2111 S J St, Tacoma, WA 98405. Both are in the Hilltop neighborhood, within walking distance of Agro Academy."
+    },
+    {
+      "type": "single",
+      "prompt": "How is the Beyond the Bell year structured?",
+      "options": [
+        {
+          "text": "Four sessions of about eight weeks each, meeting two hours a day, two days a week per program",
+          "correct": true
+        },
+        {
+          "text": "One program every day of the week"
+        },
+        {
+          "text": "Bi-weekly club meets"
+        },
+        {
+          "text": "Monthly one-day workshops"
+        }
+      ],
+      "explanation": "There are four eight-week sessions in the school year. Each club meets two hours a day on either a Monday/Wednesday or Tuesday/Thursday schedule. There are no programs on Fridays."
+    },
+    {
+      "type": "single",
+      "prompt": "What is the One City Center?",
+      "options": [
+        {
+          "text": "The Tacoma Public Schools office that runs Beyond the Bell and Club B and supports partner organizations",
+          "correct": true
+        },
+        {
+          "text": "HUG's main farm site"
+        },
+        {
+          "text": "A city-run community center in Hilltop"
+        },
+        {
+          "text": "Parks Tacoma's headquarters"
+        }
+      ],
+      "explanation": "The One City Center houses the District's ELO team. It provides the Partner Portal, session dates, submission forms, and the contacts you will work with."
+    },
+    {
+      "type": "single",
+      "prompt": "How many registered students does a program offering need before it can run?",
+      "options": [
+        {
+          "text": "At least 10",
+          "correct": true
+        },
+        {
+          "text": "At least 5"
+        },
+        {
+          "text": "At least 15"
+        },
+        {
+          "text": "At least 20"
+        }
+      ],
+      "explanation": "Each program offering needs a minimum of ten registered students. If an offering does not reach that number, the District may cancel it."
+    },
+    {
+      "type": "single",
+      "prompt": "What is the maximum student-to-instructor ratio for an Agro Academy offering?",
+      "options": [
+        {
+          "text": "20 students to 1 instructor",
+          "correct": true
+        },
+        {
+          "text": "10 students to 1 instructor"
+        },
+        {
+          "text": "30 students to 1 instructor"
+        },
+        {
+          "text": "There is no limit"
+        }
+      ],
+      "explanation": "HUG must provide at least one qualified instructor per offering and keep the ratio at or below 20 to 1. Extra help such as Jobs 253 student workers is welcome but does not count toward that requirement."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Before working with students, what must every HUG facilitator, substitute, or volunteer complete? Select all that apply.",
+      "options": [
+        {
+          "text": "A background check and fingerprinting",
+          "correct": true
+        },
+        {
+          "text": "Boundary Invasion training",
+          "correct": true
+        },
+        {
+          "text": "The required trainings assigned through Vector",
+          "correct": true
+        },
+        {
+          "text": "A state teaching certificate",
+          "explanation": "Facilitators do not need a teaching certificate."
+        }
+      ],
+      "explanation": "Nobody engages with students until their background check and fingerprinting have cleared and their required trainings, including Boundary Invasion training, are done."
+    },
+    {
+      "type": "single",
+      "prompt": "What happens when a program day is cancelled because no instructor shows up?",
+      "options": [
+        {
+          "text": "The District deducts $100 from HUG's payment for that session",
+          "correct": true
+        },
+        {
+          "text": "Nothing, as long as the day is made up later"
+        },
+        {
+          "text": "The District sends a substitute at no cost to HUG"
+        },
+        {
+          "text": "The students are moved to another provider for the day"
+        }
+      ],
+      "explanation": "The contract subtracts $100 for every cancelled day caused by a missing instructor, and repeated cancellations put the partnership at risk. Show up, and show up on time."
+    },
+    {
+      "type": "single",
+      "prompt": "Your regular co-facilitator cannot make it. Who is allowed to substitute?",
+      "options": [
+        {
+          "text": "Only someone HUG has prescreened and trained and the District has pre-approved",
+          "correct": true
+        },
+        {
+          "text": "Any HUG staff member who happens to be free"
+        },
+        {
+          "text": "A parent volunteer from the school"
+        },
+        {
+          "text": "A Jobs 253 student worker",
+          "explanation": "A 253 worker can assist with programming, but cannot act as a substitute."
+        }
+      ],
+      "explanation": "Substitutes must be prescreened, trained, and pre-approved by the District before they set foot in the program. Plan substitutes ahead of time."
+    },
+    {
+      "type": "single",
+      "prompt": "You have to cancel a session. What do you do?",
+      "options": [
+        {
+          "text": "Call/Message HUG education leadership ahead of time so they can get a substitute",
+          "correct": true
+        },
+        {
+          "text": "Post in the youth programming channel and nothing else",
+          "explanation": "Let your team know in the channel too, but the District has to hear it from you by email."
+        },
+        {
+          "text": "Tell the students at pickup"
+        },
+        {
+          "text": "Text the school's front office the morning of"
+        }
+      ],
+      "explanation": "Cancellations are emailed to Kim Messersmith the day before. Even so, there is a $100 deduction regardless. So cancelling should be only done as a last resort. Substitution should always be prioritized."
+    },
+    {
+      "type": "single",
+      "prompt": "Where does the HUG team communicate about youth programming day to day, including incidents?",
+      "options": [
+        {
+          "text": "The youth programming channel in Cliq",
+          "correct": true
+        },
+        {
+          "text": "Personal text messages between facilitators",
+          "explanation": "Calling between facilitators if fine for emergencies, but all communications should be done through cliq."
+        },
+        {
+          "text": "The school's front office email"
+        },
+        {
+          "text": "Social media direct messages"
+        }
+      ],
+      "explanation": "Day-to-day updates, incident logs, and escalations go in the youth programming channel in Cliq so leadership can see them and respond."
+    },
+    {
+      "type": "single",
+      "prompt": "When should you start prepping for a program day, and does it count as work time?",
+      "options": [
+        {
+          "text": "Start prepping 30 to 60 minutes before you head to the school, and clock it in as part of your shift",
+          "correct": true
+        },
+        {
+          "text": "Prep when you arrive at the school, on your own time"
+        },
+        {
+          "text": "Prep the night before, unpaid"
+        },
+        {
+          "text": "No prep is needed"
+        }
+      ],
+      "explanation": "Prep time is part of your shift. Clock in and start getting supplies ready an hour to thirty minutes before leaving for the school. Once program starts, keep your phone ringer on so site leads and HUG leadership can reach you."
+    },
+    {
+      "type": "single",
+      "prompt": "A family asks for an accommodation for a student with a disability. What is the right response?",
+      "options": [
+        {
+          "text": "Take the request seriously. HUG works with the District to arrange reasonable accommodations under the ADA",
+          "correct": true
+        },
+        {
+          "text": "Explain that Agro Academy cannot accommodate disabilities"
+        },
+        {
+          "text": "Have the student sit out of the activities the request covers"
+        },
+        {
+          "text": "Ignore it unless a doctor's note is provided"
+        }
+      ],
+      "explanation": "HUG follows the Americans with Disabilities Act. Accommodation requests are reviewed with the District case by case, and families can submit them before programming begins."
+    },
+    {
+      "type": "single",
+      "prompt": "Whose behavior expectations and discipline procedures apply during Agro Academy at a school?",
+      "options": [
+        {
+          "text": "The school's and the District's, which the District provides to HUG",
+          "correct": true
+        },
+        {
+          "text": "Only HUG's own rules"
+        },
+        {
+          "text": "Whatever each facilitator decides that day"
+        },
+        {
+          "text": "Rules the students vote on"
+        }
+      ],
+      "explanation": "The District gives HUG its school policies, behavior expectations, discipline procedures, and health and safety protocols. Facilitators follow them and partner with the school on behavior issues. The same goes for the building: leave every space in the same or better condition than you found it."
+    },
+    {
+      "type": "single",
+      "prompt": "A parent asks you to give their child a dose of medicine during program. What do you do?",
+      "options": [
+        {
+          "text": "Explain that ELO staff do not give medications or provide health services, and that no District nursing staff are on site during program. Let the site lead and HUG leadership know",
+          "correct": true
+        },
+        {
+          "text": "Give it, as long as the parent writes a note"
+        },
+        {
+          "text": "Give it if the school nurse approves over the phone"
+        },
+        {
+          "text": "Hold the medicine and hand it to the child when they ask"
+        }
+      ],
+      "explanation": "During Beyond the Bell there are no District staff or nursing services available, and ELO staff do not administer medications or provide health services. The provider is responsible for supervising students, not for medical care."
+    },
+    {
+      "type": "single",
+      "prompt": "A student has a burr stuck in their hair. What do you do?",
+      "options": [
+        {
+          "text": "Ask the student before touching them, and remove it only if they say yes",
+          "correct": true
+        },
+        {
+          "text": "Pull it out quickly so they do not fuss",
+          "explanation": "Even a quick, helpful touch needs consent first."
+        },
+        {
+          "text": "Tell them to wait until they get home"
+        },
+        {
+          "text": "Ask another student to remove it"
+        }
+      ],
+      "explanation": "Consent comes first. Ask before touching a student for anything, including opening a snack or removing something from their hair."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which kinds of touch are acceptable with a student once they agree to it? Select all that apply.",
+      "options": [
+        {
+          "text": "A pat on the hand",
+          "correct": true
+        },
+        {
+          "text": "A pat on the shoulder",
+          "correct": true
+        },
+        {
+          "text": "Holding a hand, for example while walking",
+          "correct": true
+        },
+        {
+          "text": "A hug",
+          "explanation": "Keep touch to hands and shoulders."
+        }
+      ],
+      "explanation": "Keep touch to arm extremities: a pat on the hand or shoulder, or holding a hand. A pat on the shoulder is how you say \"good job.\""
+    },
+    {
+      "type": "single",
+      "prompt": "As a HUG facilitator in Beyond the Bell you are a mandatory reporter. What does that mean?",
+      "options": [
+        {
+          "text": "If you have reasonable cause to believe a child has been abused or neglected, you must report it to DCYF or law enforcement, on top of telling HUG and the District",
+          "correct": true
+        },
+        {
+          "text": "You must report attendance to the District every day"
+        },
+        {
+          "text": "You tell your site lead and they decide whether anything gets reported",
+          "explanation": "Telling the site lead is part of it, but the legal duty to report is yours."
+        },
+        {
+          "text": "You report only abuse you witnessed yourself"
+        }
+      ],
+      "explanation": "Under Washington law (RCW 26.44.030), anyone with reasonable cause to believe a child has suffered abuse or neglect must report to the Department of Children, Youth, and Families or to law enforcement. That duty exists independently of any reporting to the District."
+    },
+    {
+      "type": "single",
+      "prompt": "How, and how soon, do you make a mandatory report to the state?",
+      "options": [
+        {
+          "text": "Call DCYF at 1-866-END-HARM (1-866-363-4276), or 911 if the child is in immediate danger, at the first opportunity and never later than 48 hours",
+          "correct": true
+        },
+        {
+          "text": "Fill out a HUG form and wait for leadership to call the state",
+          "explanation": "HUG's internal steps happen too, but they do not replace your own report."
+        },
+        {
+          "text": "Email the school principal within a week"
+        },
+        {
+          "text": "Bring it up at the next staff meeting"
+        }
+      ],
+      "explanation": "Washington's reporting line, 1-866-END-HARM, is staffed around the clock. State law requires the report at the first opportunity and in no case more than 48 hours after you have reasonable cause to believe abuse or neglect occurred. Along with the incident, you file a report with HUG, the School, and contact the HUG CEO and other Educational leadership in Cliq by tagging them in the Youth Education channel."
+    },
+    {
+      "type": "single",
+      "prompt": "You suspect a student is being neglected but you have no direct evidence. What is the first step?",
+      "options": [
+        {
+          "text": "Post it in the youth programming channel and tag the HUG CEO and education leadership so they can discuss it and decide next steps",
+          "correct": true
+        },
+        {
+          "text": "Call the family and ask them directly"
+        },
+        {
+          "text": "Wait until you have proof"
+        },
+        {
+          "text": "Ask other students what they know"
+        }
+      ],
+      "explanation": "Suspected abuse or neglect without direct evidence goes in the youth programming channel, tagged to the CEO and leadership. The team discusses it, and the Land and Community Building Manager tells you what actions to take."
+    },
+    {
+      "type": "multiple",
+      "prompt": "A student tells you a relative touched them inappropriately. Select every step you must take.",
+      "options": [
+        {
+          "text": "Document it in the youth programming channel in Cliq and tag the CEO",
+          "correct": true
+        },
+        {
+          "text": "File a HUG incident report form",
+          "correct": true
+        },
+        {
+          "text": "Report it to the site lead and email Kim Messersmith so the District knows",
+          "correct": true
+        },
+        {
+          "text": "Make a report to DCYF or law enforcement as a mandatory reporter",
+          "correct": true
+        },
+        {
+          "text": "Wait for proof before telling anyone",
+          "explanation": "A child's own report is reason enough to act. Do not wait for proof."
+        }
+      ],
+      "explanation": "When a child reports abuse, or you have evidence of it, all of these happen: document in Cliq and tag the CEO, file the HUG incident report form, tell the site lead and email Kim Messersmith, and make your own mandatory report to DCYF."
+    },
+    {
+      "type": "single",
+      "prompt": "A student says, \"I didn't eat dinner last night.\" What is the appropriate response?",
+      "options": [
+        {
+          "text": "Take note of it. Connect with HUG to provide food, and if it happens irregularly help connect the family with resources. On its own it is not a report of abuse",
+          "correct": true
+        },
+        {
+          "text": "Report it to DCYF right away",
+          "explanation": "One missed dinner is not reasonable cause to believe a child is being abused or neglected."
+        },
+        {
+          "text": "Ignore it"
+        },
+        {
+          "text": "Tell the student to bring their own dinner next time"
+        }
+      ],
+      "explanation": "A missed meal is a chance to help, not a report of abuse. HUG can contact the family and offer a list of resources."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which of these, described by a child, point toward neglect that should be escalated? Select all that apply.",
+      "options": [
+        {
+          "text": "Being locked in a room or house they cannot get out of",
+          "correct": true
+        },
+        {
+          "text": "Being left alone for days with almost no food",
+          "correct": true
+        },
+        {
+          "text": "Being left locked in with no way to call anyone for help",
+          "correct": true
+        },
+        {
+          "text": "Being home alone for an afternoon",
+          "explanation": "In Washington it is not against the law to leave a child home alone. Being alone by itself is not neglect."
+        }
+      ],
+      "explanation": "The warning signs are being locked in, going without food, and having no way to get help. A child in that situation often describes it in detail, such as the sun going down and nobody coming."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which of these count as evidence of abuse or neglect that must be reported right away? Select all that apply.",
+      "options": [
+        {
+          "text": "Unexplained bruises or physical injuries",
+          "correct": true
+        },
+        {
+          "text": "A wound left untreated for days after the school and family were told about it",
+          "correct": true
+        },
+        {
+          "text": "Losing weight with no explanation",
+          "correct": true
+        },
+        {
+          "text": "Days of filth caked onto the child",
+          "correct": true
+        },
+        {
+          "text": "A cough",
+          "explanation": "A cough is a health issue, not evidence of abuse. You can ask that the student stay home until they are well. If the cough persists for weeks, report it to the school before taking next steps."
+        }
+      ],
+      "explanation": "Abuse or neglect with evidence is reported in the youth programming channel with the CEO and youth programming leadership tagged, emailed to Kim Messersmith, and reported to DCYF."
+    },
+    {
+      "type": "single",
+      "prompt": "A student comes to program with what look like bedbug or flea bites. What do you do?",
+      "options": [
+        {
+          "text": "Bring it to the school's attention and address it. Report to DCYF only if it goes on for weeks with no change",
+          "correct": true
+        },
+        {
+          "text": "Report it to DCYF the same day"
+        },
+        {
+          "text": "Say nothing, since it is not your business"
+        },
+        {
+          "text": "Tell the student their home has an infestation"
+        }
+      ],
+      "explanation": "Pest bites are addressed with the school first. If the problem persists for weeks, then it becomes a report to DCYF."
+    },
+    {
+      "type": "single",
+      "prompt": "You see or hear about bullying, harassment, or discriminatory behavior between students, or by an adult. What must happen?",
+      "options": [
+        {
+          "text": "Report it to the site lead and to Kim Messersmith, and log it in the youth programming channel",
+          "correct": true
+        },
+        {
+          "text": "Handle it quietly yourself and move on"
+        },
+        {
+          "text": "Report it only if a parent complains"
+        },
+        {
+          "text": "Send the students involved home"
+        }
+      ],
+      "explanation": "The contract requires HUG to report any observation or report of inappropriate student or adult behavior to the District immediately. Log it in the youth programming channel as well, tagging the CEO and youth education leadership."
+    },
+    {
+      "type": "single",
+      "prompt": "What time should you start prepping on a program day?",
+      "options": [
+        {
+          "text": "2:30 pm, so supplies are ready before you head to the school",
+          "correct": true
+        },
+        {
+          "text": "3:05 pm, when students start arriving"
+        },
+        {
+          "text": "Noon"
+        },
+        {
+          "text": "4:00 pm, at the start of the lesson"
+        }
+      ],
+      "explanation": "Staff set-up starts at 2:30 pm at Agro Academy or the school garden: indoor tables, veggies, magnifiers, art supplies, water-pouring stations, chalk, and whatever the lesson needs. Prep is clocked in as part of your shift."
+    },
+    {
+      "type": "single",
+      "prompt": "When do you need to be at the school?",
+      "options": [
+        {
+          "text": "By 2:50 - 3:00 pm, before students start arriving at 3:05",
+          "correct": true
+        },
+        {
+          "text": "By 3:30 pm"
+        },
+        {
+          "text": "By 4:00 pm, when the lesson starts"
+        },
+        {
+          "text": "Whenever the site lead messages you"
+        }
+      ],
+      "explanation": "Staff arrive at the school between 2:50 and 3:00 pm and meet at the check-in spot to go over attendance sheets, radios, and snacks. Students begin arriving at 3:05. Arriving late leaves the site lead without HUG staff when the kids show up."
+    },
+    {
+      "type": "single",
+      "prompt": "When is the Beyond the Bell workday over, so you can leave the site?",
+      "options": [
+        {
+          "text": "6:00 pm, once pickup is finished and the space is reset",
+          "correct": true
+        },
+        {
+          "text": "5:00 pm, when the lesson ends"
+        },
+        {
+          "text": "5:20 pm, as soon as the closing reflection ends"
+        },
+        {
+          "text": "Whenever your co-facilitator says it is fine"
+        }
+      ],
+      "explanation": "Pickup runs from 5:20 to 6:00 pm with decompression activities such as books, drawing, and garden helper jobs. Staff departure is at 6:00 pm, after the last student is picked up and the space is left in the same or better condition than you found it."
+    },
+    {
+      "type": "single",
+      "prompt": "On a program day, what happens during the 4:00 to 5:00 pm block?",
+      "options": [
+        {
+          "text": "The program lesson of the day",
+          "correct": true
+        },
+        {
+          "text": "Student check-in"
+        },
+        {
+          "text": "Snack"
+        },
+        {
+          "text": "Child pickup"
+        }
+      ],
+      "explanation": "The afternoon runs: staff set-up, staff arrival at the school to check attendance sheets, radios, and snacks, student arrival and check-in, snack, bathroom break and the walk to the program space, the one-hour lesson at 4:00, Big Group, then pickup and staff departure."
+    },
+    {
+      "type": "single",
+      "prompt": "What happens at the end of the lesson?",
+      "options": [
+        {
+          "text": "Reflection, then free play",
+          "correct": true
+        },
+        {
+          "text": "Free play"
+        },
+        {
+          "text": "Homework help"
+        },
+        {
+          "text": "A staff meeting"
+        }
+      ],
+      "explanation": "Student reflect on the day's lesson and then are permitted to free play before pickup arrives."
+    },
+    {
+      "type": "single",
+      "prompt": "How does the group walk from the school to the garden or Agro Academy?",
+      "options": [
+        {
+          "text": "At a gentle pace with a rope or a line leader, after a bathroom break",
+          "correct": true
+        },
+        {
+          "text": "Students run ahead to save time"
+        },
+        {
+          "text": "Each student walks on their own"
+        },
+        {
+          "text": "In staff cars"
+        }
+      ],
+      "explanation": "The walk follows a bathroom and water break and is gentle-paced with a rope or line leader. Skipping the bathroom break means trips back and forth later."
+    },
+    {
+      "type": "single",
+      "prompt": "Before taking a group off site, for example to the Bezos garden beds, what should be true?",
+      "options": [
+        {
+          "text": "Students are following directions, have used the bathroom, and there are enough staff. If not, stay at the school and run a backup activity",
+          "correct": true
+        },
+        {
+          "text": "You go regardless, because the lesson plan says so"
+        },
+        {
+          "text": "One facilitator can take any size group alone"
+        },
+        {
+          "text": "Students who refuse can be left at the school unsupervised"
+        }
+      ],
+      "explanation": "Moving locations is a safety decision. Past facilitators kept groups at the school when students could not follow directions, and had students who would not listen stay behind with staff while the rest went."
+    },
+    {
+      "type": "multiple",
+      "prompt": "What belongs in the emergency Grab and Go kit? Select all that apply.",
+      "options": [
+        {
+          "text": "Attendance list and emergency contacts",
+          "correct": true
+        },
+        {
+          "text": "First aid kit",
+          "correct": true
+        },
+        {
+          "text": "Flashlight and whistle",
+          "correct": true
+        },
+        {
+          "text": "Snacks and water",
+          "correct": true
+        },
+        {
+          "text": "Garden tools",
+          "explanation": "Garden tools will clutter or make the emergency kit more cumbersome during an emergency."
+        }
+      ],
+      "explanation": "The Grab and Go kit holds the attendance list, emergency contacts, first aid kit, flashlight, whistle, snacks, and water."
+    },
+    {
+      "type": "single",
+      "prompt": "Who takes control in an emergency?",
+      "options": [
+        {
+          "text": "The staff lead by seniority in the program, giving clear instructions in a calm, firm voice",
+          "correct": true
+        },
+        {
+          "text": "Whoever is standing closest to the door"
+        },
+        {
+          "text": "The oldest student"
+        },
+        {
+          "text": "Nobody, since everyone acts on their own"
+        }
+      ],
+      "explanation": "One person takes control: the staff lead by seniority in position and time in the program. The other roles are Sweep (checks all areas), Kit Grabber, and Headcount Lead."
+    },
+    {
+      "type": "single",
+      "prompt": "When do you take a headcount during an emergency?",
+      "options": [
+        {
+          "text": "Immediately, again after any movement, and once everyone is safe",
+          "correct": true
+        },
+        {
+          "text": "Only once everyone is safe"
+        },
+        {
+          "text": "Only at the start"
+        },
+        {
+          "text": "Only if someone seems to be missing"
+        }
+      ],
+      "explanation": "Headcount always: count immediately, after every move, and once safe. Children move in safety buddy pairs so nobody is left alone."
+    },
+    {
+      "type": "single",
+      "prompt": "(Safety Policy) A staff lead says, \"Line up, we're going outside NOW.\" What is happening?",
+      "options": [
+        {
+          "text": "A fire. Exit immediately without collecting belongings and go to the meeting spot for a headcount",
+          "correct": true
+        },
+        {
+          "text": "Severe weather",
+          "explanation": "\"Storm safety time\" is the severe weather phrase, and it means moving indoors."
+        },
+        {
+          "text": "A lockdown",
+          "explanation": "\"We're staying inside for safety time\" is the lockdown phrase."
+        },
+        {
+          "text": "An earthquake",
+          "explanation": "\"DROP, COVER, HOLD ON\" is the earthquake phrase."
+        }
+      ],
+      "explanation": "Each emergency has a code phrase. Fire: \"Line up, we're going outside NOW.\" Lockdown: \"We're staying inside for safety time.\" Violent threat: \"We're going into quiet hiding mode.\" Earthquake: \"DROP, COVER, HOLD ON.\" Severe weather: \"Storm safety time.\""
+    },
+    {
+      "type": "single",
+      "prompt": "(Safety Policy) You hear \"We're staying inside for safety time.\" What do you do?",
+      "options": [
+        {
+          "text": "Lock all doors, bring everyone inside, continue quiet activities, and allow no entry or exit until cleared",
+          "correct": true
+        },
+        {
+          "text": "Take everyone outside to the meeting spot"
+        },
+        {
+          "text": "Turn off the lights and keep everyone silent and out of sight",
+          "explanation": "That is the response to a violent threat inside, signaled by \"quiet hiding mode.\" A lockdown for an outside threat keeps quiet activities going."
+        },
+        {
+          "text": "Send students home early"
+        }
+      ],
+      "explanation": "That phrase means a lockdown for an external threat. Lock doors, keep everyone inside with quiet activities, and wait to be cleared."
+    },
+    {
+      "type": "single",
+      "prompt": "A child is hurt and needs medical help. How do staff split up?",
+      "options": [
+        {
+          "text": "One stays with the child, one calls 911, and one manages the rest of the group",
+          "correct": true
+        },
+        {
+          "text": "Everyone gathers around the child"
+        },
+        {
+          "text": "One staff member does everything while the others continue the lesson"
+        },
+        {
+          "text": "Send a student to find help"
+        }
+      ],
+      "explanation": "One staff with the child, one calling 911, one with the group. Give first aid if trained, and contact the guardian immediately."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which hazards are specific to working with kids in a garden? Select all that apply.",
+      "options": [
+        {
+          "text": "Tools such as shovels and hoes, which must be secured and used with gloves",
+          "correct": true
+        },
+        {
+          "text": "Irrigation lines and other tripping hazards",
+          "correct": true
+        },
+        {
+          "text": "Insects and bees",
+          "correct": true
+        },
+        {
+          "text": "Uneven or muddy ground",
+          "correct": true
+        },
+        {
+          "text": "Students carrying the shovels so they learn responsibility",
+          "explanation": "Tools stay secured, and K through 2 students do not use sharp tools at all."
+        }
+      ],
+      "explanation": "The emergency plan's agro-specific risks: secure tools, wear garden gloves when handling them, watch irrigation lines, be aware of insects and bees, and monitor uneven or muddy ground."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Older students are using garden tools. Which safety rules apply? Select all that apply.",
+      "options": [
+        {
+          "text": "Keep an arm's length plus the tool's length between students",
+          "correct": true
+        },
+        {
+          "text": "Keep tools below waist level",
+          "correct": true
+        },
+        {
+          "text": "No running while holding a tool",
+          "correct": true
+        },
+        {
+          "text": "Check tools for splintered handles or loose heads before handing them out",
+          "correct": true
+        },
+        {
+          "text": "Let students carry tools over their shoulders",
+          "explanation": "Tools stay low, never over the shoulder, so nobody behind gets hit."
+        }
+      ],
+      "explanation": "Extension guidance for youth gardens: space students an arm's length plus a tool length apart, keep tools below the waist, no running with tools, name which tools are adult-only, and inspect tools before use. Gloves go on before anyone shovels."
+    },
+    {
+      "type": "multiple",
+      "prompt": "It is a hot afternoon at the garden. Which are good practices? Select all that apply.",
+      "options": [
+        {
+          "text": "Build in regular water breaks",
+          "correct": true
+        },
+        {
+          "text": "Keep the group in shade, or move indoors during the hottest part of the session",
+          "correct": true
+        },
+        {
+          "text": "Watch for heavy sweating, muscle cramps, weakness, or dizziness and stop activity if you see them",
+          "correct": true
+        },
+        {
+          "text": "Push through the planned lesson because it is only an hour",
+          "explanation": "Children are at higher risk in heat because they do not pace themselves or drink enough on their own."
+        }
+      ],
+      "explanation": "Children overheat more easily than adults. Give water often, use shade, lighten the activity, and know the signs of heat exhaustion. On a sweltering day past facilitators swapped the outdoor plan for an indoor one."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Every Agro Academy session is built around four focus areas. Which are they? Select all that apply.",
+      "options": [
+        {
+          "text": "Indoor",
+          "correct": true
+        },
+        {
+          "text": "Outdoor",
+          "correct": true
+        },
+        {
+          "text": "Husbandry",
+          "correct": true
+        },
+        {
+          "text": "Leadership and EJ",
+          "correct": true
+        },
+        {
+          "text": "Standardized test prep"
+        }
+      ],
+      "explanation": "Each session plans Indoor lessons, Outdoor work, Husbandry (animal care), and Leadership and EJ activities such as roles, gratitude, and conversations about food access."
+    },
+    {
+      "type": "single",
+      "prompt": "Across the year, what is the big-picture goal for Agro Academy students?",
+      "options": [
+        {
+          "text": "They move from helpers to stewards to emerging leaders",
+          "correct": true
+        },
+        {
+          "text": "They memorize the names of fifty plants"
+        },
+        {
+          "text": "They win a district garden contest"
+        },
+        {
+          "text": "They get ahead on middle school science"
+        }
+      ],
+      "explanation": "The sessions build on each other so students go from helpers to stewards to emerging leaders, taking on jobs like Bed Steward, Chicken Care Captain, or Water Team and eventually teaching skills to peers."
+    },
+    {
+      "type": "single",
+      "prompt": "How is the one-hour lesson block structured for K through 2 students, and why?",
+      "options": [
+        {
+          "text": "A 35 to 40 minute lesson plus a 15 to 20 minute mini art or build project, because young students need short attention cycles",
+          "correct": true
+        },
+        {
+          "text": "One 60 minute lecture"
+        },
+        {
+          "text": "Sixty minutes of free play"
+        },
+        {
+          "text": "Three 20 minute lectures"
+        }
+      ],
+      "explanation": "K through 2 attention spans are short, so the hour is split into a lesson and a mini project."
+    },
+    {
+      "type": "single",
+      "prompt": "What is the tool rule for K through 2 students?",
+      "options": [
+        {
+          "text": "No sharp tools, and no scissors beyond child-safe scissors",
+          "correct": true
+        },
+        {
+          "text": "Any tool is fine with supervision"
+        },
+        {
+          "text": "Real pruners are allowed for harvest"
+        },
+        {
+          "text": "Tools are allowed only outdoors"
+        }
+      ],
+      "explanation": "K through 2 students use child-safe scissors at most and no sharp tools. Garden clean-up tasks are light and supervised."
+    },
+    {
+      "type": "single",
+      "prompt": "What can students do during food prep in Agro Academy?",
+      "options": [
+        {
+          "text": "Wash, tear, mix, and spread, with no knives",
+          "correct": true
+        },
+        {
+          "text": "Use paring knives with supervision"
+        },
+        {
+          "text": "Nothing, since staff do all the prep"
+        },
+        {
+          "text": "Cook on a stovetop"
+        }
+      ],
+      "explanation": "Simple food prep means washing produce, tearing greens and herbs, mixing, and spreading. There are no knives, everyone washes hands first, and students talk about where each ingredient grew."
+    },
+    {
+      "type": "multiple",
+      "prompt": "(Lesson) Which materials go into a compost-in-a-bottle? Select all that apply.",
+      "options": [
+        {
+          "text": "Dry leaves, shredded paper, or cardboard (browns)",
+          "correct": true
+        },
+        {
+          "text": "Fruit and vegetable scraps (greens)",
+          "correct": true
+        },
+        {
+          "text": "Soil, to introduce microbes",
+          "correct": true
+        },
+        {
+          "text": "Meat or dairy scraps",
+          "explanation": "No meat or dairy in the compost. They rot badly and attract pests."
+        }
+      ],
+      "explanation": "Layer browns, greens, and soil with a light mist of water. No meat or dairy, no tasting, and hands get washed or wiped afterward."
+    },
+    {
+      "type": "single",
+      "prompt": "What is the correct way to hold a bunny?",
+      "options": [
+        {
+          "text": "One hand supporting the chest, one hand supporting the hindquarters, held close to your body",
+          "correct": true
+        },
+        {
+          "text": "By the ears"
+        },
+        {
+          "text": "By the scruff of the neck"
+        },
+        {
+          "text": "Under the front legs with the back legs hanging"
+        }
+      ],
+      "explanation": "Rabbits have a fragile spine and strong hind legs. Support the chest and the hindquarters and keep the bunny close to your body so it feels secure."
+    },
+    {
+      "type": "single",
+      "prompt": "A bunny's ears go back and it thumps a hind foot. What does that mean, and what do you do?",
+      "options": [
+        {
+          "text": "It is stressed or alarmed. Pause the interaction and let it rest",
+          "correct": true
+        },
+        {
+          "text": "It is happy and wants more attention"
+        },
+        {
+          "text": "It is hungry, so give it a treat"
+        },
+        {
+          "text": "It wants to be held by someone else"
+        }
+      ],
+      "explanation": "Ears back means stressed, thumping means alarm, and a relaxed body means comfort. The shared agreement with students is that animals can say no."
+    },
+    {
+      "type": "single",
+      "prompt": "There is a newborn bunny litter in the nest box. What is the rule for students?",
+      "options": [
+        {
+          "text": "Quiet voices near the nest box, and look but do not touch",
+          "correct": true
+        },
+        {
+          "text": "Everyone gets a turn holding a baby"
+        },
+        {
+          "text": "Pass the babies around the circle"
+        },
+        {
+          "text": "Students may pick them up if they wash their hands first"
+        }
+      ],
+      "explanation": "Newborns are not handled at first. Students observe quietly, and gentle handling is reintroduced gradually as the kits grow."
+    },
+    {
+      "type": "single",
+      "prompt": "(Lesson) In the lavender glycerite lesson, who pours the glycerin, and what is the tasting rule?",
+      "options": [
+        {
+          "text": "Staff pour the glycerin, and there is no tasting",
+          "correct": true
+        },
+        {
+          "text": "Students pour it themselves and may taste a little"
+        },
+        {
+          "text": "Students pour it, and staff taste-test the finished jars"
+        },
+        {
+          "text": "Whoever is closest pours it"
+        }
+      ],
+      "explanation": "Glycerin is not safe for children to eat in large amounts. Staff pour it, students keep hands outside the jars, spills are wiped right away, and it is a hands, eyes, and nose activity only."
+    },
+    {
+      "type": "single",
+      "prompt": "What do facilitators record after each program day?",
+      "options": [
+        {
+          "text": "An Impact score and a Coordination score from 1 to 3, with short notes about how the day went",
+          "correct": true
+        },
+        {
+          "text": "Nothing beyond attendance"
+        },
+        {
+          "text": "A photo of every student"
+        },
+        {
+          "text": "A full written lesson plan for the next day"
+        }
+      ],
+      "explanation": "Each day's log has the activity, an Impact score, a Coordination score, and notes. Those notes are how the team learns what worked, what did not, and where safety concerns came up."
+    },
+    {
+      "type": "single",
+      "prompt": "What is HUG's mission?",
+      "options": [
+        {
+          "text": "To develop systems for food sovereignty and create racial and economic justice",
+          "correct": true
+        },
+        {
+          "text": "To run the largest farmers market in Pierce County"
+        },
+        {
+          "text": "To provide landscaping services in Hilltop"
+        },
+        {
+          "text": "To sell organic produce to restaurants"
+        }
+      ],
+      "explanation": "HUG's mission is to develop systems for food sovereignty and create racial and economic justice. Its vision is to inspire the community to live with abundance while understanding and undermining the root causes of economic poverty, wealth accumulation, and systems of oppression."
+    },
+    {
+      "type": "single",
+      "prompt": "Which best describes food sovereignty?",
+      "options": [
+        {
+          "text": "The right of peoples to healthy and culturally appropriate food produced through ecologically sound and sustainable methods, and their right to define their own food and agriculture systems",
+          "correct": true
+        },
+        {
+          "text": "Having a grocery store within a mile of home"
+        },
+        {
+          "text": "Growing food only to sell it"
+        },
+        {
+          "text": "Government control of food prices"
+        }
+      ],
+      "explanation": "That definition comes from the 2007 Declaration of Nyéléni. Food sovereignty is about communities deciding how their food is grown and shared, which is why Agro Academy talks about access, labor, and care and sends food home with students."
+    },
+    {
+      "type": "multiple",
+      "prompt": "Which of these are principles of a trauma-informed approach? Select all that apply.",
+      "options": [
+        {
+          "text": "Safety",
+          "correct": true
+        },
+        {
+          "text": "Trustworthiness and transparency",
+          "correct": true
+        },
+        {
+          "text": "Empowerment, voice, and choice",
+          "correct": true
+        },
+        {
+          "text": "Awareness of culture, history, and gender",
+          "correct": true
+        },
+        {
+          "text": "Strict punishment for every rule broken",
+          "explanation": "Consequences follow school policy, but punishment is not a trauma-informed principle."
+        }
+      ],
+      "explanation": "Agro Academy practices emotional grounding, consent, and student-led roles. It is important to approach children with empathy and understanding."
+    }
+  ]
+}

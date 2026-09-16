@@ -167,6 +167,23 @@
     return n + ' ' + word + (n === 1 ? '' : 's');
   }
 
+  /* Splits text on line breaks so a blank line in a description becomes a new paragraph. */
+  function paragraphs(text, cls) {
+    return String(text || '').split(/\n+/).map(function (line) {
+      return line.trim() ? h('p', { class: cls || null, text: line.trim() }) : null;
+    });
+  }
+
+  function shuffledIndices(n) {
+    var a = [];
+    for (var i = 0; i < n; i++) { a.push(i); }
+    for (var j = a.length - 1; j > 0; j--) {
+      var k = Math.floor(Math.random() * (j + 1));
+      var t = a[j]; a[j] = a[k]; a[k] = t;
+    }
+    return a;
+  }
+
   function slugify(text) {
     return String(text).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'curriculum';
   }
@@ -199,6 +216,7 @@
       type: q.type === 'multiple' ? 'multiple' : 'single',
       prompt: String(q.prompt || q.question || '').trim(),
       explanation: String(q.explanation || '').trim(),
+      shuffle: q.shuffle !== false,
       options: (Array.isArray(q.options) ? q.options : []).map(function (o) {
         if (typeof o === 'string') { return { text: o.trim(), correct: false, explanation: '' }; }
         o = (o && typeof o === 'object') ? o : {};
@@ -240,6 +258,7 @@
         eq.options.push(eo);
       });
       if (q.explanation) { eq.explanation = q.explanation; }
+      if (q.shuffle === false) { eq.shuffle = false; }
       out.questions.push(eq);
     });
     return out;
@@ -412,7 +431,7 @@
           append(row, [
             h('div', null,
               h('h3', { text: c.title || name }),
-              c.description ? h('p', { text: c.description }) : null,
+              c.description ? paragraphs(c.description) : null,
               h('p', { class: 'meta', text: plural(c.questions.length, 'question') + (opts.showFile ? ' in ' + name : '') }),
               errors.length ? h('p', { class: 'meta', text: 'Needs fixing: ' + errors[0] }) : null
             ),
@@ -454,7 +473,7 @@
     render(h('div', { class: 'narrow' }, h('div', { class: 'card' },
       h('p', { class: 'eyebrow', text: opts.preview ? 'Preview' : 'Curriculum' }),
       h('h1', { text: curriculum.title }),
-      curriculum.description ? h('p', { class: 'lead', text: curriculum.description }) : null,
+      curriculum.description ? paragraphs(curriculum.description, 'lead') : null,
       h('p', { class: 'hint', text: plural(n, 'question') }),
       h('hr', { class: 'divider' }),
       h('h3', { text: 'How it works' }),
@@ -473,11 +492,13 @@
         type: q.type,
         prompt: q.prompt,
         explanation: q.explanation,
+        shuffle: q.shuffle !== false,
         options: q.options.filter(function (o) { return o.text; })
       };
     });
     session = {
       title: curriculum.title,
+      source: curriculum,
       questions: questions,
       queue: questions.map(function (_, i) { return i; }),
       pos: 0,
@@ -501,7 +522,11 @@
     var inputName = 'answer-' + qi;
     var inputs = [];
 
-    var optionItems = q.options.map(function (o, i) {
+    /* A fresh order every time the question is shown, including retries. */
+    var order = q.shuffle ? shuffledIndices(q.options.length) : q.options.map(function (_, i) { return i; });
+    var shown = order.map(function (i) { return q.options[i]; });
+
+    var optionItems = shown.map(function (o, i) {
       var input = h('input', { type: multi ? 'checkbox' : 'radio', name: inputName, value: String(i), onchange: onSelect });
       inputs.push(input);
       var label = h('label', { class: 'option' }, input,
@@ -550,7 +575,7 @@
     function check() {
       var selected = selectedIndices();
       if (!selected.length) { return; }
-      var correctSet = q.options.map(function (o, i) { return o.correct ? i : -1; }).filter(function (i) { return i >= 0; });
+      var correctSet = shown.map(function (o, i) { return o.correct ? i : -1; }).filter(function (i) { return i >= 0; });
       var isCorrect = sameSet(selected, correctSet);
 
       list.classList.add('locked');
@@ -558,7 +583,7 @@
         inp.disabled = true;
         var label = inp.parentNode;
         var body = label.querySelector('.option-body');
-        var o = q.options[i];
+        var o = shown[i];
         var picked = inp.checked;
         label.classList.remove('is-selected');
         if (o.correct) {
@@ -634,7 +659,10 @@
       h('div', { class: 'leaf' }, svg(ICON_LEAF)),
       h('h1', { text: 'You have completed the learning tool.' }),
       h('p', { class: 'wait', text: 'Please wait.' }),
-      s.preview ? h('p', null, h('button', { type: 'button', class: 'btn btn-secondary', onclick: function () { showEditor(); } }, 'Back to editor')) : null
+      h('div', { class: 'btn-row' },
+        h('button', { type: 'button', class: 'btn btn-secondary', onclick: function () { startSession(s.source, { preview: s.preview }); } }, 'Rerun learning tool'),
+        s.preview ? h('button', { type: 'button', class: 'btn btn-ghost', onclick: function () { showEditor(); } }, 'Back to editor') : null
+      )
     )), { lock: !s.preview });
   }
 
@@ -839,6 +867,12 @@
         ),
         h('div', { class: 'field' }, h('label', { text: 'Question' }), promptInput),
         h('div', { class: 'field' }, h('label', { text: 'Answer type' }), typeSelect),
+        h('div', { class: 'field' },
+          h('label', { class: 'check' },
+            h('input', { type: 'checkbox', checked: q.shuffle === false, onchange: function (e) { q.shuffle = !e.target.checked; saveDraft(); } }),
+            h('span', { text: 'Keep the answer options in this order. Use this for answers such as "All of the above." Otherwise the options are shuffled each time the question is shown.' })
+          )
+        ),
         h('div', { class: 'field' },
           h('span', { class: 'label', text: 'Answer options' }),
           h('p', { class: 'hint', text: q.type === 'single'
